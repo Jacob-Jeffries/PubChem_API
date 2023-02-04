@@ -1,6 +1,20 @@
 {
+  "name": "pubchemapi",
+  "version": "23.02.04",
+  "description": "Makes Batch calls to PubChem API for inventory control.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon index",
+    "test": "jest"
+  },
+  "author": "Jacob Jeffries",
+  "license": "Mozilla Public License 2.0",
   "dependencies": {
     "inquirer": "^8.2.4",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
     "jest": "^29.4.1"
   }
 }
