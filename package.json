@@ -1,17 +1,17 @@
 {
-  "name": "PUb Chem API",
+  "name": "pubchemapi",
   "version": "1.0.0",
   "description": "Makes Batch calls to PubChem API for inventory control.",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "watch": "nodemon index",
-    "test": "jest",
+    "test": "jest"
   },
   "author": "Jacob Jeffries",
   "license": "Mozilla Public License 2.0",
   "dependencies": {
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^29.4.1"
